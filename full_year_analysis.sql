@@ -175,7 +175,7 @@ SELECT
     x.*,
     ROUND((classic_trips / total_trips) * 100, 2) AS classic_perc,
     ROUND((electric_trips / total_trips) * 100, 2) AS electric_perc,
-	ROUND((docked_trips / total_trips) * 100, 2) AS docked_perc
+    ROUND((docked_trips / total_trips) * 100, 2) AS docked_perc
 FROM (
 	SELECT 
 		DISTINCT member_casual,
